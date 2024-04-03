@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('First cypress test by myself', () => {
+describe('Some testing', () => {
     beforeEach(() => cy.visit('https://ticket-box.s3.eu-central-1.amazonaws.com/index.html')
         )
         it('Successfully ordering tickets with only mandatory fields without support', () => {
