@@ -10,7 +10,8 @@ describe('Ticketbox', () => {
         cy.get('#first-name').type(firstName)
         cy.get('#last-name').type(lastName)
         cy.get('#email').type('mojmail@mail.com')
-        cy.get('#requests').type('I do not know')
+        //cy.get('#requests').type('I do not know')
+        cy.get('#requests').type('I don`t know')
         cy.get('#signature').type(`${firstName} ${lastName}`)
     })
 
